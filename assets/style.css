@@ -2,14 +2,16 @@
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 body{
 	background-color: rgb(37, 62, 154);
 	background-image: url(intra.jpeg);
 	background-size:cover;
 	background-repeat: no-repeat;
-	background-attachment:fixed;
-	height: 100vh;  
+	background-attachment: scroll;
+	height: 100vh;
+	transform: scale(1.6);
 }           
 .container {
 	position: absolute; 
@@ -17,6 +19,7 @@ body{
 	top: 50px;
 	transform: translateX( -50%);
 	width: 250px;
+	margin-top: 20%;
 }
 img{
 	width: 55px;
