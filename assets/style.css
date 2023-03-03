@@ -6,8 +6,8 @@
 }
 body{
 	background-color: rgb(37, 62, 154);
-	background-image: url(intra.jpeg);
-	background-size:cover;
+	background-image: url(intra3.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	height: 100vh;
@@ -22,11 +22,11 @@ body{
 	margin-top: 15%;
 }
 img{
-	width: 55px;
+	width: 75px;
 	margin-bottom: 30px;
-	margin-top: 50px;
+	margin-top: 20%;
 	transition: .3;
-	animation: animate 2s;
+	animation: animate 1s ease-in;
 }
 @keyframes animate{
 	0%{
@@ -51,7 +51,7 @@ img{
 	transition: .3s;
 }
 .login:hover{
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 .editpass{
 	text-align: center;
@@ -72,7 +72,7 @@ img{
 	transition: .3s;
 }
 .password:hover{
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 .password::placeholder{
 	letter-spacing: 0.1px;
@@ -145,4 +145,9 @@ img{
 }
 .cond:hover::before {
 	width: 100%;
-} 
+}
+.test{
+	background: local;
+	background-color: white;
+	width:200px;
+}
